@@ -1,0 +1,115 @@
+/* ------------------------ID Selectors----------------------------- */
+
+body{
+    height: 100%;
+    margin: 0.2% 5% 0% 5%;
+    background-color: rgb(26, 26, 26);
+}
+
+/* -------------------------------------------------------------------------------- */
+/* --------------------------------------Common Elements------------------------------------------ */
+
+.common-btn{
+    background: linear-gradient(90deg, rgba(237,23,113,1) 0%, rgba(230,23,119,1) 20%, rgba(209,24,135,1) 40%, rgba(176,25,161,1) 60%, rgba(129,26,197,1) 80%, rgba(82,28,234,1) 100%) no-repeat;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+}
+
+.line{
+    position: absolute;
+    display: inline-block;
+    background-color: rgb(90, 90, 90);
+}
+
+
+/* -------------------------------------------------------------------------------- */
+/* -----------------------------------Navbar--------------------------------------------- */
+
+
+.nav-link{
+    color: rgb(156, 156, 156);
+    font-size: 1.1rem;
+}
+
+.nav-link:hover{
+    color: rgb(255, 255, 255);
+      
+}
+
+.navbar-brand{
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: rgb(156, 156, 156);
+}
+
+.item-nav{
+    font-size: 1.05rem;
+    margin: auto;
+}
+
+
+.navbar-toggler{
+    border-color: rgb(156, 156, 156);
+    box-shadow: none;
+} 
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(156, 156, 156,0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+    border-color: rgb(255, 255, 255);
+}
+
+.download-img{
+    height: 20px;
+}
+
+
+/* -------------------------------------------------------------------------------- */
+/* ---------------------------------Landing page----------------------------------------------- */
+
+.landing-img{
+    position: relative;
+    width: 59%;
+    float: right;
+}
+
+.landing-txt{
+    padding-top: 5%;
+    color: white;
+    display: inline-block;
+}
+
+.landing{
+    margin-top: 8%;
+}
+
+
+/* ------------------------ID Selectors----------------------------- */
+
+span{
+    text-decoration: underline;
+}
+
+h1{
+    font-size: 650%;
+    line-height: 93%;
+    font-family: 'Dancing Script', cursive;
+}
+h4{
+    font-size: 200%;
+    font-family: 'Domine', serif;
+}
+
+h5{
+    font-size: 120%;
+    font-family: 'Domine', serif;
+    color: rgb(156, 156, 156);
+}
+
+/* -------------------------------------------------------------------------------- */
+
+
