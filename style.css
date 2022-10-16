@@ -32,7 +32,7 @@ body{
     font-size: 1.1rem;
 }
 
-.nav-link:hover{
+.nav-link:hover,.nav-txt:hover{
     color: rgb(255, 255, 255);
       
 }
@@ -42,6 +42,8 @@ body{
     font-weight: 500;
     color: rgb(156, 156, 156);
 }
+
+
 
 .item-nav{
     font-size: 1.05rem;
@@ -73,7 +75,7 @@ body{
 
 .landing-img{
     position: relative;
-    width: 59%;
+    width: 38%;
     float: right;
 }
 
@@ -95,20 +97,21 @@ span{
 }
 
 h1{
-    font-size: 650%;
+    font-size: 8rem;
     line-height: 93%;
     font-family: 'Dancing Script', cursive;
 }
 h4{
-    font-size: 200%;
+    font-size: 3rem;
     font-family: 'Domine', serif;
 }
 
 h5{
-    font-size: 120%;
+    font-size: 1.45rem;
     font-family: 'Domine', serif;
     color: rgb(156, 156, 156);
 }
+
 
 /* -------------------------------------------------------------------------------- */
 

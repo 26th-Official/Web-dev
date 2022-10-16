@@ -1,0 +1,16 @@
+
+h1{
+    font-size: 650%;
+    line-height: 93%;
+    font-family: 'Dancing Script', cursive;
+}
+h4{
+    font-size: 200%;
+    font-family: 'Domine', serif;
+}
+
+h5{
+    font-size: 120%;
+    font-family: 'Domine', serif;
+    color: rgb(156, 156, 156);
+}
