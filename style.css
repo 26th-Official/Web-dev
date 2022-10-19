@@ -2,8 +2,10 @@
 
 body {
     height: 100%;
-    margin: 0.2% 5% 0% 5%;
+    padding: 0.2% 2% 0% 2%;
     background-color: rgb(26, 26, 26);
+    max-width:1920px;
+    margin: auto;
 }
 
 * {
@@ -12,6 +14,7 @@ body {
     -moz-transition: all .25s linear;
     -webkit-transition: all .25s linear;
 }
+
 
 /* --------------------------------------Common Elements------------------------------------------ */
 
@@ -82,7 +85,7 @@ body {
 
 .landing-img {
     position: relative;
-    width: 38%;
+    width: 30rem;
     float: right;
 }
 
@@ -126,7 +129,7 @@ h5 {
 /* -----------------------------------Responsive--------------------------------------------- */
 
 /* ---------------------------------Tablet----------------------------------------------- */
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1089px) {
 
     h1 {
         font-size: 7.5rem;
