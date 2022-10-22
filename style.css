@@ -61,10 +61,13 @@ body {
     font-weight: 500;
 }
 
+.navbar-brand:focus{
+    color: rgb(156, 156, 156);
+}
+
 .nav-link:hover,
 .nav-txt:hover {
     color: rgb(255, 255, 255);
-
 }
 
 .navbar-brand {
