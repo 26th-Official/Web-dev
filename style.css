@@ -99,20 +99,21 @@ body {
 /* ---------------------------------Landing page----------------------------------------------- */
 
 .landing-img {
-    position: relative;
-    width: 30rem;
+    padding-right: 1rem;
+    width: 37rem;
     float: right;
-}
+  }
 
 .landing-txt {
-    padding-top: 5%;
+    padding-top: 11%;
     color: white;
     display: inline-block;
     padding-left: inherit;
 }
 
 .landing {
-    margin-top: 8%;
+    margin-top: 4%;
+    display: inline-block;
 }
 
 
@@ -144,7 +145,7 @@ h5 {
 /* -----------------------------------Responsive--------------------------------------------- */
 
 /* ---------------------------------Tablet----------------------------------------------- */
-@media only screen and (max-width: 1089px) {
+/* @media only screen and (max-width: 1142px) {
 
     h1 {
         font-size: 7.5rem;
@@ -168,11 +169,11 @@ h5 {
     }
 
 
-}
+} */
 
 /* ---------------------------Mobile----------------------------------------------------- */
 
-@media only screen and (max-width: 450px) {
+/* @media only screen and (max-width: 450px) {
 
     h1 {
         font-size: 8rem;
@@ -191,6 +192,6 @@ h5 {
         color: rgb(156, 156, 156);
     }
 
-}
+} */
 
 /* -------------------------------------------------------------------------------- */
