@@ -99,16 +99,16 @@ body {
 /* ---------------------------------Landing page----------------------------------------------- */
 
 .landing-img {
-    padding-right: 1rem;
-    width: 37rem;
+    padding-right: 6rem;
+    width: 43rem;
     float: right;
   }
 
 .landing-txt {
-    padding-top: 11%;
+    padding-top: 72px;
     color: white;
     display: inline-block;
-    padding-left: inherit;
+    padding-left: 6%;
 }
 
 .landing {
@@ -124,7 +124,7 @@ span {
 }
 
 h1 {
-    font-size: 8rem;
+    font-size: 10rem;
     line-height: 93%;
     font-family: 'Dancing Script', cursive;
 }
