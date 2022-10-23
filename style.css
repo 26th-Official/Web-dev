@@ -21,6 +21,29 @@ body {
 }
 
 
+span {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 10rem;
+    line-height: 93%;
+    font-family: 'Dancing Script', cursive;
+}
+
+h4 {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family: 'Domine', serif;
+}
+
+h5 {
+    font-size: 1.25rem;
+    line-height: 1.4;
+    font-family: 'Domine', serif;
+    color: rgb(156, 156, 156);
+}
+
 /* --------------------------------------Common Elements------------------------------------------ */
 
 .common-btn {
@@ -39,11 +62,12 @@ body {
 
 .totop-btn{
     position: fixed;
-    background: rgba(230, 23, 119, 1);
+    background: rgb(230, 23, 119);
     /* background: linear-gradient(90deg, rgba(237, 23, 113, 1) 0%, rgba(230, 23, 119, 1) 20%, rgba(209, 24, 135, 1) 40%, rgba(176, 25, 161, 1) 60%, rgba(129, 26, 197, 1) 80%, rgba(82, 28, 234, 1) 100%) no-repeat; */
     border-radius: 20px;
     right: 20px; 
     bottom: 20px;
+    z-index: 99;
 }
 
 .top-arrow-img{
@@ -124,34 +148,23 @@ body {
     display: inline-block;
 }
 
+/* -------------------------------------------------------------------------------- */
+/* ---------------------------------Works page----------------------------------------------- */
 
-/* ------------------------ID Selectors----------------------------- */
+.works {
 
-span {
-    text-decoration: underline;
-}
+    margin-top: 10%;
+    display: inline-block;
+    height: 350px;
 
-h1 {
-    font-size: 10rem;
-    line-height: 93%;
-    font-family: 'Dancing Script', cursive;
-}
-
-h4 {
-    font-size: 3rem;
-    line-height: 1.5;
-    font-family: 'Domine', serif;
-}
-
-h5 {
-    font-size: 1.25rem;
-    line-height: 1.4;
-    font-family: 'Domine', serif;
-    color: rgb(156, 156, 156);
-}
 
 
 /* -------------------------------------------------------------------------------- */
+
+
+
+
+
 /* -----------------------------------Responsive--------------------------------------------- */
 
 /* ---------------------------------Tablet----------------------------------------------- */

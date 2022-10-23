@@ -18,16 +18,23 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;1,100;1,400&display=swap" rel="stylesheet"> 
     <!-- --------------------------------------Font--------------------------------------------- -->
+    <!-- --------------------------------------Swiper--------------------------------------------- -->
+
+    <link rel="stylesheet" href="swiper.css">
+    <link rel="stylesheet" href="Script\Swiper-js\css\swiper-bundle.min.css">
+    <script src="Script\Swiper-js\js\swiper-bundle.min.js"></script>
+
+    <!-- --------------------------------------Swiper--------------------------------------------- -->
 
 
     <title>Portfolio</title>
 </head>
 
 <body>
+    <button class="btn btn-dark totop-btn" onclick="window.location.href='#Home';">
+        <img class="top-arrow-img" src="Assets\up-arrow.png" alt="up-arrow-img">
+    </button>
     <section id="Home">
-        <button class="btn btn-dark totop-btn" onclick="window.location.href='#Home';">
-            <img class="top-arrow-img" src="Assets\up-arrow.png" alt="up-arrow-img">
-        </button>
         <nav class="navbar navbar-expand-lg" style="background-color: rgb(26, 26, 26) ;">
             <div class="container-fluid fixed">
                 <a class="navbar-brand" href="/index.html">
@@ -46,10 +53,10 @@
                                 <a class="nav-link" href="#Home">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#about-page">About</a>
+                                <a class="nav-link" href="#works-page">Works</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#works-page">Works</a>
+                                <a class="nav-link" href="#about-page">About</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#contact-page">Contact</a>
@@ -85,23 +92,74 @@
         
     </section>
 
+    <section id="works-page">
+        <div class="works container-fluid">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="Assets\Swiper.png" alt="swiper-img">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="Assets\Swiper.png" alt="swiper-img">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="Assets\Swiper.png" alt="swiper-img">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="Assets\Swiper.png" alt="swiper-img">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="Assets\Swiper.png" alt="swiper-img">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="Assets\Swiper.png" alt="swiper-img">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="Assets\Swiper.png" alt="swiper-img">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="Assets\Swiper.png" alt="swiper-img">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="Assets\Swiper.png" alt="swiper-img">
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+
+        </div>
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+              slidesPerView: 3,
+              spaceBetween: 30,
+              slidesPerGroup: 3,
+              loop: true,
+              loopFillGroupWithBlank: true,
+              pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+              },
+              navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+              },
+            });
+          </script>
+    </section>
+
+    <section id="contact-page">
+        <div class="contact container-fluid">
+
+        </div>
+    </section>
+    
     <section id="about-page">
         <div class="about container-fluid">
 
         </div>
     </section>
 
-    <section id="works-page">
-        <div class="works container-fluid">
-
-        </div>
-    </section>
-
-    <section id="contact-page">
-        <div class="contact container-fluid" style="height: 700px; width:400px; color:#f4499a;">
-        </div>
-    </section>
-
 </body>
-
 </html>
