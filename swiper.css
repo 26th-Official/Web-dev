@@ -1,6 +1,7 @@
 .swiper {
   width: 100%;
   height: 100%;
+  
 }
 
 .swiper-slide {
@@ -23,6 +24,12 @@
   -webkit-align-items: center;
   align-items: center;
 }
+
+.swiper-slide:hover{
+  border:1px solid;
+  border-color: rgb(156, 156, 156);
+}
+
 
 .swiper-slide img {
   display: block;
